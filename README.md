@@ -37,16 +37,7 @@ For development: Clone this project.
 ### Project state: 
 Program is working correctly, no errors, refactoring is needed.
 Refactoring needed: 
-* del not used namespaces
-* del unused variables
-* del needless debugs
-* del needless comments
-* del unused methods
-* rename variables (coding standards)
-* rename methods (coding standards)
 * fix poor conditional clauses
-* fix poor formating
-* replace magic string
 * replace magic number
 
 ### Limitations: 
