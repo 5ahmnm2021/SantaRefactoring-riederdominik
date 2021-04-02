@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         {
             if (grounded == true)
             {
-                jump();
+                Jump();
             }
         }
     }
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     bool grounded;
     bool gameOver = false;
 
-    void jump()
+    void Jump()
     {
         grounded = false;
 
