@@ -5,7 +5,6 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     private Animator anim;
     [SerializeField] float jumpForce;
-    
 
     private void Awake()
     {
@@ -13,13 +12,6 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButton(0) && !gameOver && !gameOver && !gameOver)
@@ -28,10 +20,6 @@ public class PlayerController : MonoBehaviour
             {
                 jump();
             }
-
-
-
-
         }
     }
 
