@@ -3,7 +3,7 @@
 public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
-    Animator anim, anim2, anim3, anim4, anim5;
+    private Animator anim;
     [SerializeField] float jumpForce;
     
 
