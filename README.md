@@ -54,4 +54,4 @@ Only one level is implemented.
 * Use UI elements and manipulate UI elements with scrips
 
 
-Copyright by smeerws
+Copyright by riederdominik
